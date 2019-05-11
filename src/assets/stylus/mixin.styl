@@ -1,0 +1,46 @@
+border-top-1px($color)
+    position: relative
+    &:after
+        content: ""
+        display: block
+        width: 100%
+        border-top: 1px solid $color
+        position: absolute
+        left: 0
+        top: 0
+        transform: scaleY(0.5);
+        -webkit-transform: scaleY(0.5);
+
+border-bottom-1px($color)
+    position: relative
+    &:after
+        content: ""
+        display: block
+        width: 100%
+        border-top: 1px solid $color
+        position: absolute
+        left: 0
+        bottom: 0
+        transform: scaleY(0.5);
+        -webkit-transform: scaleY(0.5);
+
+border-none-1px()
+    &:after
+        display none
+
+//定义一个变量和一个mixin
+$baseFontSize = 16; //默认基准font-size
+px2rem(name, px){
+{name}: px / $baseFontSize * 1rem;
+}
+
+// 使用示例：
+// .container {
+//   px2rem('height', 240);
+// }
+
+//  stylus翻译结果：
+// .container {
+//   height: 3.2rem;
+// }
+
