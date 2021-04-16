@@ -1,6 +1,6 @@
-# zhaoqianbei完整移动端前端项目
+# 移动端前端项目
 
-vue移动端前端项目，基于Vue2.0 ，注释详细方便学习的人。对vue还有很多要学习的地方，望各位大神不吝赐教，欢迎提出问题，欢迎star。
+vue移动端前端项目，基于Vue2.0。
 
 ## 技术栈
 
@@ -13,10 +13,6 @@ vue移动端前端项目，基于Vue2.0 ，注释详细方便学习的人。对v
 - mint-ui框架的Picker组件和Datetime picker组件
 - stylus
 - webpack
-
-## 在线预览
-
-找前辈移动端官网：[http://m.zhaoqianbei.com](http://m.zhaoqianbei.com/)
 
 ## 图片预览
 
