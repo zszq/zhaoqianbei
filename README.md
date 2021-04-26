@@ -28,7 +28,7 @@ vue移动端前端项目，基于Vue2.0。
 
 ## 启动项目
 
-克隆项目：（`git clone`）
+克隆项目：
 
 ```
 git clone https://github.com/zszq/zhaoqianbei-webapp.git
